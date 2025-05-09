@@ -4,4 +4,4 @@
 **Project Discription**
 **Key Findings**
 **Dashboard overview**
-
+[photo](photo.jpg)
