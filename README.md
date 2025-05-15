@@ -28,18 +28,24 @@ From a weekly perspective, the most lucrative days were Saturday (£9.29M), Tues
 
 # Projet 2
 
-**Title:**
+**Title:** Football Players
 
-**SQL Code:**
+**SQL Code:** Football players SQL Code (https://github.com/eocreates/eocreates.github.io/blob/main/FOOTBAL_PLAYER.Sql)
 
-**SQL Skills Used:**
+**SQL Skills Used:** Data Retrieval (SELECT): Queried and extracted specific information from the database.
+Data Aggregation (SUM, COUNT): Calculated totals, such as sales and quantities, and counted records to analyze data trends.
+Data Filtering (WHERE, BETWEEN, IN, AND): Applied filters to select relevant data, including filtering by ranges and lists.
+Data Source Specification (FROM): Specified the tables used as data sources for retrieval
 
-**Project Description:**
+**Project Description:** The Football Players Data Analysis project focuses on extracting actionable insights from a comprehensive dataset of professional football players using SQL queries. Key objectives include filtering players by specific criteria (e.g., team, position, age), identifying performance-related attributes (e.g., tallest, heaviest, rookies), and conducting comparative analysis such as average heights and weights by team or position. Advanced techniques like ranking, partitioning, and window functions are utilized to derive deeper insights, such as players outperforming team averages, shared last names, and experience distribution
 
 **Technology used: SQL server**
 
 
-Data Retrieval (SELECT): Queried and extracted specific information from the database.
-Data Aggregation (SUM, COUNT): Calculated totals, such as sales and quantities, and counted records to analyze data trends.
-Data Filtering (WHERE, BETWEEN, IN, AND): Applied filters to select relevant data, including filtering by ranges and lists.
-Data Source Specification (FROM): Specified the tables used as data sources for retrieval
+# Project 3
+
+**Title :** Dominoz pizza
+
+**Tool Used:** Power Bi (Dax....)
+
+
