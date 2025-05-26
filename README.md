@@ -27,6 +27,7 @@ N.B: Agent performance varies; use the dropdown at the top of the dashboard to v
 ![Sales](Sales.png)
 
 
+
 # Adventure Works Sales Analysis (MICROSOFT EXCEL)
 **Title 1:** [Adventure Works Sales Analysis]([https://github.com/eocreates/eocreates.github.io/blob/main/Adventure%20Works.xlsx)
 
@@ -38,7 +39,10 @@ N.B: Agent performance varies; use the dropdown at the top of the dashboard to v
 
 • A total revenue of £137.35 million was recorded, with a net profit of £44.17 million from selling 512.87K units.
 
+• A combined 52% of the total revenue was generated in the years 2010, 2012, and 2013, each averaging approximately £17 million in revenue.
+
 • The most profitable year was 2012 with March, July, and November contributing 39.32% of total profit, Also Tuesday, Wednesday and saturday contributed to 54.2% of total profit
+
 
 • Offline sales outperformed online, with cosmetics being the top performer item type.
 
@@ -46,8 +50,6 @@ N.B: Agent performance varies; use the dropdown at the top of the dashboard to v
 **Dashboard overview**
 
 ![ADVN](ADVN.png)
-
-
 
 
 
