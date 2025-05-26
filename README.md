@@ -81,6 +81,38 @@ Sorting Data: ORDER BY: Sorts results by specified columns in ascending or desce
 **Technology used: SQL server**
 
 
+# Hospital patients Analysis (SQL)
+**Title:** Hospital Patients Analysis
+**SQL Code:** [Hospital_Patients_Analysis SQL Code](https://github.com/eocreates/eocreates.github.io/blob/main/Hospital%20Patient%20Analysis.sql)
+**SQL Skills Used:**  Basic Queries: Retrieving and counting data (e.g., using SELECT, COUNT, SUM, AVG).
+
+Grouping & Aggregation: Grouping data by columns (GROUP BY) and filtering groups (HAVING).
+
+Window Functions: Ranking and partitioning data (DENSE_RANK(), SUM() OVER).
+
+Joins & Subqueries: Combining and embedding queries for detailed data retrieval (INNER JOIN, subqueries).
+
+Date Functions: Calculating differences between dates (DATEDIFF).
+
+Stored Procedures: Creating reusable procedures for tasks like matching blood donors.
+
+Conditional Logic: Using CASE statements to categorize data.
+
+**Project Description:** This project involves performing a comprehensive analysis of a healthcare database, aimed at understanding patient demographics, medical conditions, treatment patterns, and financial aspects associated with healthcare services. The queries are designed to extract insights from a dataset containing patient records, including their medical conditions, hospital visits, treatments, billing amounts, insurance providers, and more.
+
+**Technology used: SQL server**
+
+# Salesman Analysis (SQL)
+**Title:** Salesman Analysis
+**SQL Code:** [Salesman Analysis SQL Code](https://github.com/eocreates/eocreates.github.io/blob/main/Salesjoins.sql)
+**SQL Skills Used:** JOIN Operations: Used INNER JOIN, LEFT JOIN, and CROSS JOIN to relate data across Salesman, Customer, and Order tables. Implemented conditional joins to extract relationships (e.g., matching cities, commission-based conditions).
+
+Filtering and Aggregation: Used WHERE clauses with logical operators (e.g., BETWEEN, <>, IS NOT NULL) to filter data accurately. Applied business rules (e.g., customers with grade, purchase amount limits, commission thresholds).
+
+Sorting and Formatting: Used ORDER BY to organize reports chronologically or by business hierarchy. Applied DISTINCT to avoid data duplication in complex join operations.
+
+Cartesian Product Queries: Explored business possibilities using CROSS JOIN to simulate all combinations of customers and salespeople. Applied conditional logic to limit Cartesian outputs to meaningful pairings (e.g., same or different cities).
+
 # Project 3
 
 **Title :** Dominoz pizza
