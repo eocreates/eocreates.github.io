@@ -1,5 +1,5 @@
 # Project 1
-**Title 1:** [Sales and Marketing Call Center] (https://github.com/eocreates/eocreates.github.io/blob/main/Callcentersales.xlsb)
+**Title 1:** [Sales and Marketing Call Center](https://github.com/eocreates/eocreates.github.io/blob/main/Callcentersales.xlsb)
 **Tool Used:** Advance Microsoft Excel (Pivot Table, Pivot Charts, Power Pivot, Power Query, VBA, Slicers, Timeline)
 
 **Project Discription:**  This project focuses on developing an interactive Call Center Dashboard delivering key insights into overall call operations, with a strong focus on individual agent performance and customer behavior. It will display call metrics, agent success rates, products discussed, and customer locations, while tracking monthly and time-series trends. Additionally, it will identify reasons for unsuccessful calls, all in a clean, user-friendly design to support smarter decision-making.
