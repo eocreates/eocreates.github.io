@@ -45,7 +45,7 @@ N.B: Agent performance varies; use the dropdown at the top of the dashboard to v
 
 **Dashboard overview**
 
-![Advn](Advn.png)
+![ADVN](ADVN.png)
 
 
 
