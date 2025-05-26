@@ -1,5 +1,5 @@
 # Sales and Marketing Call Center Analysis (MICROSOFT EXCEL)
-**Title 1:** [Sales and Marketing Call Center](https://github.com/eocreates/eocreates.github.io/blob/main/Callcentersales.xlsb)
+**Title:** [Sales and Marketing Call Center](https://github.com/eocreates/eocreates.github.io/blob/main/Callcentersales.xlsb)
 
 **Tool Used:** Advance Microsoft Excel (Pivot Table, Pivot Charts, Power Pivot, Power Query, VBA, Slicers, Timeline)
 
@@ -29,7 +29,7 @@ N.B: Agent performance varies; use the dropdown at the top of the dashboard to v
 
 
 # Adventure Works Sales Analysis (MICROSOFT EXCEL)
-**Title 1:** [Adventure Works Sales Analysis]([https://github.com/eocreates/eocreates.github.io/blob/main/Adventure%20Works.xlsx)
+**Title:** [Adventure Works Sales Analysis]([https://github.com/eocreates/eocreates.github.io/blob/main/Adventure%20Works.xlsx)
 
 **Tool Used:** Advance Microsoft Excel (Pivot Table, Pivot Charts, Power Pivot, Power Query, Slicers, Timeline)
 
@@ -53,8 +53,8 @@ N.B: Agent performance varies; use the dropdown at the top of the dashboard to v
 
 
 # Workplace Safety Analysis (SQL)
-**Title 1:** Workplace Safety Analysis
-**SQL Code:** WorkplaceSafetyAnalysis SQL Code (https://github.com/eocreates/eocreates.github.io/blob/main/WORKPLACE%20SAFETY%20DATA.sql)
+**Title:** Workplace Safety Analysis
+**SQL Code:** WorkplaceSafetyAnalysis SQL Code(https://github.com/eocreates/eocreates.github.io/blob/main/WORKPLACE%20SAFETY%20DATA.sql)
 
 **SQL Skills Used:** Aggregation Functions: COUNT(), SUM(), AVG(), MAX(): Used to calculate counts, sums, averages, and maximum values for various columns like incidents, costs, and days lost.
 
