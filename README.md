@@ -35,7 +35,7 @@ N.B: Agent performance varies; use the dropdown at the top of the dashboard to v
 
 **Project Discription:**  The Adventure Works Sales Analysis project is a comprehensive business intelligence initiative aimed at evaluating and understanding the company's historical sales performance. Leveraging key metrics such as revenue, profit, unit sales, and cost data, the project provides actionable insights into product category performance, sales channel effectiveness, temporal sales trends, and customer buying behavior.
 
-**Key Findings:** 
+**Adventure Works Sales  Overview:**
 
 • A total revenue of £137.35 million was recorded, with a net profit of £44.17 million from selling 512.87K units.
 
@@ -52,19 +52,31 @@ N.B: Agent performance varies; use the dropdown at the top of the dashboard to v
 
 
 
+# Workplace Safety Analysis (SQL)
+**Title 1:** Workplace Safety Analysis
+**SQL Code:** WorkplaceSafetyAnalysis SQL Code (https://github.com/eocreates/eocreates.github.io/blob/main/WORKPLACE%20SAFETY%20DATA.sql)
 
-# Projet 2
+**SQL Skills Used:** Aggregation Functions: COUNT(), SUM(), AVG(), MAX(): Used to calculate counts, sums, averages, and maximum values for various columns like incidents, costs, and days lost.
 
-**Title:** Football Players
+Grouping Data: GROUP BY: Groups data by specific columns (e.g., department, plant) to allow aggregation.
 
-**SQL Code:** Football players SQL Code (https://github.com/eocreates/eocreates.github.io/blob/main/FOOTBAL_PLAYER.Sql)
+Filtering Data:
 
-**SQL Skills Used:** Data Retrieval (SELECT): Queried and extracted specific information from the database.
-Data Aggregation (SUM, COUNT): Calculated totals, such as sales and quantities, and counted records to analyze data trends.
-Data Filtering (WHERE, BETWEEN, IN, AND): Applied filters to select relevant data, including filtering by ranges and lists.
-Data Source Specification (FROM): Specified the tables used as data sources for retrieval
+WHERE: Filters data before aggregation, e.g., to focus on specific incident types or report types.
 
-**Project Description:** The Football Players Data Analysis project focuses on extracting actionable insights from a comprehensive dataset of professional football players using SQL queries. Key objectives include filtering players by specific criteria (e.g., team, position, age), identifying performance-related attributes (e.g., tallest, heaviest, rookies), and conducting comparative analysis such as average heights and weights by team or position. Advanced techniques like ranking, partitioning, and window functions are utilized to derive deeper insights, such as players outperforming team averages, shared last names, and experience distribution
+HAVING: Filters data after grouping, e.g., to find departments with incidents lasting more than two days.
+
+Window Functions: ROW_NUMBER(): Assigns a unique number to rows based on specified ordering, used for ranking incidents or reports.
+
+Date and Time Functions: YEAR(), MONTH(), FORMAT(): Extracts and formats date values for grouping incidents by year, month, or shift.
+
+Subqueries and Common Table Expressions (CTEs):
+
+WITH clause: Used to create reusable query blocks (CTEs) for ranking or filtering data (e.g., ranking departments by incident counts).
+
+Sorting Data: ORDER BY: Sorts results by specified columns in ascending or descending order.
+
+**Project Description:** This project involves analyzing workplace safety data to identify patterns and trends related to incidents, costs, and the impact on employees. Using SQL queries to explore a comprehensive dataset, the goal is to provide actionable insights into the frequency and severity of incidents, their associated costs, and the factors influencing safety in the workplace. The analysis covers various aspects, such as incident types, departments, shifts, age groups, plants, and costs, with a focus on identifying high-risk areas and opportunities for improvement
 
 **Technology used: SQL server**
 
