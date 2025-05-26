@@ -66,11 +66,48 @@ WHERE [Report Type] = 'Near Miss'
 GROUP BY [Plant]
 ORDER BY Near_Miss_Reports DESC
 
+--2nd method to return only the plant with the highest number of reports for 'Near Miss'	
+
+WITH MostNearMiss AS (
+SELECT 
+	"plant", 
+	"report type", 
+	COUNT("report type") AS NumberOfReports,
+           ROW_NUMBER() OVER (ORDER BY COUNT("report type") DESC) AS RowNum
+FROM WorkplaceSafetyData
+WHERE "report type" = 'Near Miss'
+    GROUP BY "plant", "report type"
+)
+SELECT 
+	"plant", 
+	"report type", 
+	NumberOfReports
+FROM MostNearMiss
+WHERE RowNum = 1;
+
+
 --10	What is the total number of incidents by year and month?
 SELECT [Month], [Year]
 		,COUNT (*) AS Total_Number_of_Incidents
 FROM [dbo].[Workplace Safety Data]
 GROUP BY [Month], [Year]
+
+--2nd method to return the total number of incidents by year and month?	
+Select 
+	year("date") as "year", 
+	count (*) as NumberOfIncidents
+from WorkplaceSafetyData
+group by year("date");
+
+Select 
+	format("date", 'MMMM') as "Month", 
+	count (*) as NumberOfIncidents, 
+	month("date") as MonthNumber
+from WorkplaceSafetyData
+group by 
+	format("date", 'MMMM'),month("date")
+order by 
+	month("date");
 
 --11	Which gender has the most reported incidents?
 SELECT Top (1) [Gender]
@@ -93,6 +130,15 @@ FROM [dbo].[Workplace Safety Data]
 GROUP BY [Year] 
 ORDER BY total_cost DESC
 
+--2nd method to return incident year resulted in the highest cost?
+with HighestIncidentCost as(
+select*,
+	max("incident cost") over(partition by ("incident type") ) as HighestCost
+from WorkplaceSafetyData)
+
+select top 1* from HighestIncidentCost
+where "incident cost" = HighestCost
+
 --14	What is the total cost of incidents for each report type?
 SELECT	[Report Type]
 		, SUM( [Incident Cost]) AS Total_Cost
@@ -112,6 +158,13 @@ SELECT  [Incident Type]
 FROM [dbo].[Workplace Safety Data]
 GROUP BY [Incident Type]
 
+-- 2nd method to return the average number of days lost per incident type?
+select 
+	"incident type", 
+	AVG(CAST("Days Lost" AS DECIMAL(10,2))) as AverageDaysLost
+from WorkplaceSafetyData
+group by "Incident type"
+
 --17	What is the distribution of incidents by shift (Day, Afternoon, Night)?
 SELECT [Shift]
 	,COUNT (*) AS Incidents
@@ -124,6 +177,17 @@ SELECT Top (1)[Month]
 FROM [dbo].[Workplace Safety Data]
 GROUP BY [Month]
 ORDER BY High_Incidents DESC
+
+-- 2nd method to return months have the highest number of incidents?
+Select 
+	format("date", 'MMMM') as "Month", 
+	count (*) as NumberOfIncidents, 
+	month("date") as MonthNumber
+from WorkplaceSafetyData
+group by 
+	format("date", 'MMMM'),
+	month("date")
+order by NumberOfIncidents desc;
 
 --19	What is the total cost of "Vehicle" related incidents?
 SELECT [Incident Type]
