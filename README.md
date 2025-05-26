@@ -83,9 +83,11 @@ Sorting Data: ORDER BY: Sorts results by specified columns in ascending or desce
 
 
 # Hospital patients Analysis (SQL)
+
 **Title:** Hospital Patients Analysis
 
 **SQL Code:** [Hospital_Patients_Analysis SQL Code](https://github.com/eocreates/eocreates.github.io/blob/main/Hospital%20Patient%20Analysis.sql)
+
 **SQL Skills Used:**  Basic Queries: Retrieving and counting data (e.g., using SELECT, COUNT, SUM, AVG).
 
 Grouping & Aggregation: Grouping data by columns (GROUP BY) and filtering groups (HAVING).
@@ -105,8 +107,11 @@ Conditional Logic: Using CASE statements to categorize data.
 **Technology used: SQL server**
 
 # Salesman Analysis (SQL)
+
 **Title:** Salesman Analysis
+
 **SQL Code:** [Salesman Analysis SQL Code](https://github.com/eocreates/eocreates.github.io/blob/main/Salesjoins.sql)
+
 **SQL Skills Used:** JOIN Operations: Used INNER JOIN, LEFT JOIN, and CROSS JOIN to relate data across Salesman, Customer, and Order tables. Implemented conditional joins to extract relationships (e.g., matching cities, commission-based conditions).
 
 Filtering and Aggregation: Used WHERE clauses with logical operators (e.g., BETWEEN, <>, IS NOT NULL) to filter data accurately. Applied business rules (e.g., customers with grade, purchase amount limits, commission thresholds).
