@@ -1,5 +1,6 @@
 # Project 1
 **Title 1:** [Sales and Marketing Call Center](https://github.com/eocreates/eocreates.github.io/blob/main/Callcentersales.xlsb)
+
 **Tool Used:** Advance Microsoft Excel (Pivot Table, Pivot Charts, Power Pivot, Power Query, VBA, Slicers, Timeline)
 
 **Project Discription:**  This project focuses on developing an interactive Call Center Dashboard delivering key insights into overall call operations, with a strong focus on individual agent performance and customer behavior. It will display call metrics, agent success rates, products discussed, and customer locations, while tracking monthly and time-series trends. Additionally, it will identify reasons for unsuccessful calls, all in a clean, user-friendly design to support smarter decision-making.
@@ -7,18 +8,15 @@
 **Call Center Performance Overview:**
 
 • Handled 200,000 calls, with 41.76% successful, 35.92% failed, and 22.32% abandoned.
-
 • Top-performing agent: Ava Sandoval, handling 40,000 calls.
-
 • Top 5 agents collectively handled 69% of calls, leaving 31% to other 10 agents.
-
-• Insurance was most discussed product and technical issues was the highest reason why calls was abadoned
-
+• Insurance was the most frequently discussed product, while technical issues were the leading cause of abandoned calls.
 • Customer engagement concentrated in urban areas (58.09% from top five counties).
-
 • 70% of calls were male, 30% female.
+• Afternoon recorded the highest number of calls received.
 
-N.B: Agent performance deferred
+N.B: Agent performance varies; use the dropdown at the top of the dashboard to view detailed insights for each individual agent.
+
 
 **Dashboard overview**
 ![Sales](Sales.png)
