@@ -54,6 +54,7 @@ N.B: Agent performance varies; use the dropdown at the top of the dashboard to v
 
 # Workplace Safety Analysis (SQL)
 **Title:** Workplace Safety Analysis
+
 **SQL Code:** [WorkplaceSafetyAnalysis SQL Code](https://github.com/eocreates/eocreates.github.io/blob/main/WORKPLACE%20SAFETY%20DATA.sql)
 
 **SQL Skills Used:** Aggregation Functions: COUNT(), SUM(), AVG(), MAX(): Used to calculate counts, sums, averages, and maximum values for various columns like incidents, costs, and days lost.
@@ -83,6 +84,7 @@ Sorting Data: ORDER BY: Sorts results by specified columns in ascending or desce
 
 # Hospital patients Analysis (SQL)
 **Title:** Hospital Patients Analysis
+
 **SQL Code:** [Hospital_Patients_Analysis SQL Code](https://github.com/eocreates/eocreates.github.io/blob/main/Hospital%20Patient%20Analysis.sql)
 **SQL Skills Used:**  Basic Queries: Retrieving and counting data (e.g., using SELECT, COUNT, SUM, AVG).
 
