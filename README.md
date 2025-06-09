@@ -126,6 +126,7 @@ Cartesian Product Queries: Explored business possibilities using CROSS JOIN to s
 **Tool Used:** Power BI,Power Query, Dax
 
 **Project Discription:** This project involves analyzing Bloomgro sales performance, customer satisfaction and inventory distribution by identifying key insights and opportunities for optimazation using various KPI's
+
 **KEY FINDINGS:**
 • Total Sales Reach £1.20M, with an average sale per item of £141, showing strong overall product demand across outlet types.
 
