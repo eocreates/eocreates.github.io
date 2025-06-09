@@ -120,6 +120,28 @@ Sorting and Formatting: Used ORDER BY to organize reports chronologically or by 
 
 Cartesian Product Queries: Explored business possibilities using CROSS JOIN to simulate all combinations of customers and salespeople. Applied conditional logic to limit Cartesian outputs to meaningful pairings (e.g., same or different cities).
 
+# BloomGro Store (Power BI)
+**Title:** [BloomGro Store Dashboard](https://github.com/eocreates/eocreates.github.io/blob/main/BloomGro.pbix)
+
+**Tool Used:** Power BI,Power Query, Dax
+
+**Project Discription:** This Healthcare Provider Dashboard offers a comprehensive view of billing, medical, and treatment costs across various departments, procedures, and diagnosis categories, Patient Race and Year in the United Kingdom. The dashboard is designed to help healthcare administrators and decision-makers monitor cost distribution, patient service types, and geographic service coverage.
+
+**KEY FINDINGS:**
+• Total Billing Reaches £3M, with an average billing amount per visit of £674.86, indicating substantial healthcare service utilization.
+
+• X-Ray is the Costliest Procedure (£1.05M, 31%), followed by CT Scan and MRI, making up over 70% of total procedure billing.
+
+• Cardiology, Orthopedics, and General Surgery are the top 3 departments, together accounting for over £2.4M in billing.
+
+• Outpatient Services Dominate for Hypertension and Appendicitis, while Asthma cases rely more on Emergency and Inpatient care.
+
+•  Major Cities like Manchester, Leeds, and Birmingham show the highest billing activity, reflecting key regional healthcare hubs.
+
+**Dashboard Overview:**
+![BloomGro](BloomGro.png)
+
+
 # Healthcare Provider (Power BI)
 **Title:** [Healthcare Provider Dashboard](https://github.com/eocreates/eocreates.github.io/blob/main/Healcare%20Provider%20Dataset.pbix)
 
