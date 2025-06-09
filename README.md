@@ -125,18 +125,25 @@ Cartesian Product Queries: Explored business possibilities using CROSS JOIN to s
 
 **Tool Used:** Power BI,Power Query, Dax
 
-**Project Discription:** This Healthcare Provider Dashboard offers a comprehensive view of billing, medical, and treatment costs across various departments, procedures, and diagnosis categories, Patient Race and Year in the United Kingdom. The dashboard is designed to help healthcare administrators and decision-makers monitor cost distribution, patient service types, and geographic service coverage.
-
+**Project Discription:** This project involves analyzing Bloomgro sales performance, customer satisfaction and inventory distribution by identifying key insights and opportunities for optimazation using various KPI's
 **KEY FINDINGS:**
-• Total Billing Reaches £3M, with an average billing amount per visit of £674.86, indicating substantial healthcare service utilization.
+• Total Sales Reach £1.20M, with an average sale per item of £141, showing strong overall product demand across outlet types.
 
-• X-Ray is the Costliest Procedure (£1.05M, 31%), followed by CT Scan and MRI, making up over 70% of total procedure billing.
+• Fruits & Vegetables and Snack Foods are the top-selling categories, each contributing £180K.
 
-• Cardiology, Orthopedics, and General Surgery are the top 3 departments, together accounting for over £2.4M in billing.
+• Supermarket Type 1 Dominates Sales, accounting for £787.5K (66%) of total revenue and leading in item visibility (338.65) and customer volume (5,577 items sold).
 
-• Outpatient Services Dominate for Hypertension and Appendicitis, while Asthma cases rely more on Emergency and Inpatient care.
+• Tier 3 Locations Drive the Highest Revenue with £472.1K, ahead of Tier 2 and Tier 1, highlighting regional performance variations.
 
-•  Major Cities like Manchester, Leeds, and Birmingham show the highest billing activity, reflecting key regional healthcare hubs.
+• Medium Outlet Sizes Perform Best with £444.8K in sales, suggesting an optimal store format for revenue generation.
+
+• Regular Fat Products Account for 65% of Total Sales, indicating customer preference over low-fat alternatives.
+
+• 2018 Was the Peak Sales Year (£205K), followed by consistent annual performance averaging £130K, suggesting a period of expansion and then stabilization.
+
+• Customer Ratings Remain Steady at 3.9 Across All Outlet Types, showing consistent satisfaction but room for enhancement.
+
+• Visibility Is a Challenge for Supermarket Types 2 & 3, with scores below 60, pointing to opportunities for improved merchandising and layout strategies.
 
 **Dashboard Overview:**
 ![BloomGro](BloomGro.png)
