@@ -128,6 +128,7 @@ Cartesian Product Queries: Explored business possibilities using CROSS JOIN to s
 **Project Discription:** This project involves analyzing Bloomgro sales performance, customer satisfaction and inventory distribution by identifying key insights and opportunities for optimazation using various KPI's
 
 **KEY FINDINGS:**
+
 • Total Sales Reach £1.20M, with an average sale per item of £141, showing strong overall product demand across outlet types.
 
 • Fruits & Vegetables and Snack Foods are the top-selling categories, each contributing £180K.
@@ -158,6 +159,7 @@ Cartesian Product Queries: Explored business possibilities using CROSS JOIN to s
 **Project Discription:** This Healthcare Provider Dashboard offers a comprehensive view of billing, medical, and treatment costs across various departments, procedures, and diagnosis categories, Patient Race and Year in the United Kingdom. The dashboard is designed to help healthcare administrators and decision-makers monitor cost distribution, patient service types, and geographic service coverage.
 
 **KEY FINDINGS:**
+
 • Total Billing Reaches £3M, with an average billing amount per visit of £674.86, indicating substantial healthcare service utilization.
 
 • X-Ray is the Costliest Procedure (£1.05M, 31%), followed by CT Scan and MRI, making up over 70% of total procedure billing.
