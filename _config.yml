@@ -3,4 +3,4 @@ logo: Photo.jpg
 description: Results-driven Data Analyst with 3+ years of experience analyzing complex datasets and delivering strategic reports that drive business success.
 #show_downloads: true 
 #google analytics:
-theme: jekyll-theme-minimal
+theme: minima
