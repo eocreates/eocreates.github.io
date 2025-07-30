@@ -1,8 +1,3 @@
----
-layout: default
-title: Home
----
-
 # Sales and Marketing Call Center Analysis (MICROSOFT EXCEL)
 **Title:** [Sales and Marketing Call Center](https://github.com/eocreates/eocreates.github.io/blob/main/Callcentersales.xlsb)
 
